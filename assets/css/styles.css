@@ -65,7 +65,6 @@ a {
 .order {
     margin-top: 38px;
     display: inline-flex;
-
     gap: 0 18px;
 }
 
@@ -531,7 +530,7 @@ a {
 }
 
 .dentist__frame {
-    width: 270px;
+    width: 100%;
     height: 318px;
     display: flex;
     justify-content: center;
@@ -548,7 +547,7 @@ a {
 
 .dentist .order {
     margin-top: 38px;
-          justify-content: center;
+    justify-content: center;
 }
 
 /* =========================dentures===================== */
@@ -687,4 +686,163 @@ a {
     color: #2e80ce;
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+/* =========================Appointment===================== */
+
+.appointment {
+    padding: 170px 135px 0;
+    height: 622px;
+}
+
+.appointment .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f6fbff;
+    padding: 100px 0;
+}
+
+.appointment__btn {
+    margin-top: 38px;
+    width: auto;
+}
+
+.appointment__separate {
+    margin-top: 18px;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+}
+
+.appointment__desc {
+    margin-top: 18px;
+    width: 52.7%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* =========================Footer===================== */
+
+.footer {
+    padding: 100px 135px 42px;
+    margin-top: 170px;
+    background: #10375c;
+}
+
+.footer__row {
+    display: flex;
+    column-gap: 78px;
+    justify-content: space-between;
+}
+
+.footer__column__desc {
+    margin-top: 20px;
+    color: #a9b3bb;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+
+.footer__column:nth-child(2),
+.footer__column:nth-child(3) {
+    flex-shrink: 0;
+}
+
+.footer__column:first-child {
+    row-gap: 0;
+    max-width: 336px;
+}
+
+.footer__column:last-child {
+    max-width: 332px;
+}
+
+.footer__heading {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+.footer__support__item {
+    display: inline-block;
+    margin-top: 10px;
+    color: #a9b3bb;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+}
+
+.footer__sub .footer__column__desc {
+    font-size: 1.4rem;
+    width: 82.22%;
+}
+
+.footer__platform {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__email {
+    margin-top: 10px;
+    color: #9ca8b1;
+
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+}
+
+.email-input {
+    padding: 10px 0 10px 10px;
+    max-width: 212px;
+    height: 46px;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    color: #9ca8b1;
+}
+.email-button {
+    margin-left: 12px;
+    cursor: pointer;
+    width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    background: #2e80ce;
+    border: 1px solid #2e80ce;
+
+    color: #fff;
+}
+
+.footer__separate {
+    margin-top: 28px;
+    width: 100%;
+    height: 1px;
+    background: #406181;
+}
+
+.footer__copy {
+    margin-top: 28px;
+    color: #aab3ba;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
 }
