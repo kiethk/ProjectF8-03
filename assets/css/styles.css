@@ -18,7 +18,7 @@ body {
 /* =========================Common===================== */
 
 .container {
-    width: 1170px;
+    width: calc(0.8125 * 100vw);
     min-width: calc(100% - 48px);
     margin: 0 auto;
 }
@@ -489,7 +489,7 @@ a {
 
 /* =========================Dentist===================== */
 
-.dentist {
+.dentist .container {
     display: flex;
     flex-direction: column;
     padding: 170px 135px 0;
@@ -547,7 +547,8 @@ a {
 }
 
 .dentist .order {
-    margin: auto;
+    margin-top: 38px;
+          justify-content: center;
 }
 
 /* =========================dentures===================== */
