@@ -798,6 +798,7 @@ a {
 }
 
 .footer__email {
+    display: flex;
     margin-top: 10px;
     color: #9ca8b1;
 
